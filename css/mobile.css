@@ -1,0 +1,133 @@
+.menu{
+    padding: 1em 0 ;
+    flex-direction: column;
+}
+.menu-nav{
+    width: 100%;
+    align-items: center;
+}
+.menu-list{
+    align-items: center;
+    margin-top: 1em;
+    flex-direction: column;
+    
+}
+.item-menu{
+    width: 60%;
+    text-align: center;
+    border-bottom: 1px solid rgb(63, 255, 4);
+}
+.item-menu a {
+    width: 100%;
+    display: block;
+    font-size: 1rem;
+    color: aliceblue;
+}
+/* Home */
+.container-home{
+    width: 75%;
+    margin-top: 1em;
+    flex-direction: column;
+    justify-content: center;
+}
+.title{
+    font-family: 'Montserrat';
+    color: whitesmoke;
+    font-size: 2rem;
+}
+.sml{
+    font-family: 'Poppins';
+    color: rgb(63, 255, 4);
+    font-size: 1rem;
+}
+.paragraf{
+    font-family: 'Roboto';
+    width: 90%;
+    text-align: justify;
+    line-height: 1.6rem;
+    color: whitesmoke;
+    margin-top: 1em;
+}
+.imgBanner img{
+    
+    width: 100%;
+}
+/* Portifolio */
+.container{
+    margin: 2em auto;
+    width: 70%;
+    margin-top: 2em;
+}
+.container-portifolio{
+    background-color: rgb(227, 227, 227);
+    width: 100%; 
+    flex-direction: column;
+    
+}
+.container-cards{
+    flex-direction: column;
+    justify-content: center;
+}
+.card{
+    width: 90%;
+    height: 25vh;
+    background-color: rgb(146, 147, 147);
+    transition: 2s;
+}
+/* Sobre */
+.conteudo-sobre{ 
+    flex-direction: column;
+    align-items: center;
+}
+.card-Perfil{
+    width: 100%;
+    margin-top: 3em;
+    flex-direction: column; 
+    align-items: center;
+    
+}
+.img{
+    display: contents;
+}
+.imgI{
+    width: 28vw;
+    height: 30vw;
+    border-radius: 50%;
+    border: 1px solid greenyellow;
+}
+.card-Perfil h3{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    
+}
+.sobre p {
+    width: 100%;
+    color: white;
+    font-family: 'Roboto';
+    text-align: justify;
+    line-height: 1.2rem;
+    color: whitesmoke;
+    margin: 1em 0;
+}
+.tecnologias{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.title-redes{
+    text-align: center;
+    margin-top: 0.5em;
+    font-family: 'Poppins';
+    color: rgb(63, 255, 4);
+    font-size: 1rem;  
+}
+/* Roda-pe */
+.container-footer{
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 2em;
+    margin-bottom: -2em;
+}
+.itenRpdape > a{
+    border-bottom: 1px solid green;
+}
