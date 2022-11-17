@@ -1,8 +1,26 @@
+
 .menu{
     padding: 1em 0 ;
     flex-direction: column;
+   
 }
-.menu-nav{
+.cab{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.material-icons{
+    visibility:visible;
+    color: white;
+    font-size: 4em;
+}
+#menuB{
+    display: none;
+}
+.menu-nav{  
     width: 100%;
     align-items: center;
 }
@@ -26,11 +44,20 @@
 /* Home */
 .container-home{
     width: 75%;
-    margin-top: 1em;
+    margin-top: 6em;
+    margin-bottom: 6em;
     flex-direction: column;
+    align-items: flex-start;
     justify-content: center;
 }
+.container-text{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
+}
 .title{
+    
     font-family: 'Montserrat';
     color: whitesmoke;
     font-size: 2rem;
@@ -70,9 +97,22 @@
 }
 .card{
     width: 90%;
-    height: 25vh;
-    background-color: rgb(146, 147, 147);
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3em;
+    border: 1px solid rgb(63, 255, 4);
+    background-color: rgb(29, 29, 29);
+    padding: 1em 0.5em;
     transition: 2s;
+    border-radius: .5em;
+}
+.title-card{
+    
+    color: rgb(223, 221, 221);
+    font-family: 'Montserrat', sans-serif;
 }
 /* Sobre */
 .conteudo-sobre{ 
@@ -120,6 +160,9 @@
     font-family: 'Poppins';
     color: rgb(63, 255, 4);
     font-size: 1rem;  
+}
+.title-link{
+    padding: .5em 3em;
 }
 /* Roda-pe */
 .container-footer{

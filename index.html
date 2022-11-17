@@ -4,20 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/assets/Logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" media="screen and (max-width: 720px)" href="/css/mobile.css">
+    <link rel="stylesheet" media="screen and (max-width: 740px)" href="css/mobile.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Portifolio</title>
 </head>
 <body> 
     <header class="cabecalho">
         <div class="menu">
-             <div class="logo">
-                 <a href="">
-                    <img id="Home" src="assets/Logo.png" alt="logo"> 
-                </a>
+            <div class="cab">
+                <div class="logo">
+                    <a href="">
+                       <img id="Home" src="assets/Logo.png" alt="logo"> 
+                   </a>
+               </div>
+               <i id="imenu" class="material-icons">menu</i>
             </div>
-            <nav class="menu-nav">
+            <nav id="menuB" class="menu-nav">
                 <ul class="menu-list">
                     <li class="item-menu"> 
                         <a class="item-m" href="">Home</a>
@@ -39,25 +43,25 @@
                 <h1 class="title"> Front End</h1>
                 <small class="sml">Developer</small>
                 <p class="paragraf"> Olá, me chamo Francis Silvestre, sou desenvolvedor Front-End com foco voltado no desenvolvimento web e mobile.</p>
+                <a class="title-link" href="" target="_blank" rel="noopener noreferrer">Acesse o GitHub</a>
             </div>
             <div class="imgBanner">
                 <img src="assets/Banner.png" alt="">
             </div>
-            
+            <h1 class="teste">teste</h1>
         </section>
         <section class="container-portifolio">
             <div class="container">
                 <h1><a id="Portifolio" class="title-link-portifolio" href="#">Portifolio</a></h1>
                 <div class="container-cards">
-                    <a class="card" href="">
-                        
-                    </a>
-                    <a class="card" href="">
-                        
-                    </a>
-                    <a class="card" href="">
-                        
-                    </a>
+                   <div class="card">
+                        <h2 class="title-card">Landing Page</h2>
+                        <a class="title-link" href="https://s1lvestre91.github.io/LandingPage/" target="_blank" rel="noopener noreferrer">Acesse</a>
+                   </div>
+                   <div class="card">
+                        <h2 class="title-card">TodoList</h2>
+                        <a class="title-link" href="" target="_blank" rel="noopener noreferrer">Acesse</a>
+                    </div>     
                     
                 </div>
             </div>
@@ -68,16 +72,17 @@
                 <div class="conteudo-sobre">
                     <div class="card-Perfil">
                         <div class="img">
-                            <img class="imgI" src="/assets/Eu.png" alt="">
+                            <img class="imgI" src="assets/Eu.png" alt="">
                         </div>
                         <h3>Francisco Silvestre</h3>
                         <div class="">
                             <h4 class="title-redes">Redes Sociais</h4>
                             <div class="rede-sociais">
-                                <a href=""><img class="redes" src="./assets/inst.png" alt=""></a>
-                                <a href=""><img class="redes" src="./assets/linkedin.png" alt=""></a>
-                                <a href=""><img class="redes" src="./assets/GitHub.png" alt=""></a>
+                                <a href="https://www.instagram.com/fsilvestre19/" target="_blank"><img class="redes" src="./assets/inst.png" alt=""></a>
+                                <a href="https://www.linkedin.com/in/francisco-silvestre-378328246/" target="_blank"><img class="redes" src="./assets/linkedin.png" alt=""></a>
+                                <a href="https://github.com/S1lvestre91" target="_blank"><img class="redes" src="./assets/GitHub1.png" alt=""></a>
                             </div>
+                    
                         </div>
                     </div>
                     <div class="sobre">
@@ -88,9 +93,9 @@
                         </p>
                         <h3 class="title-redes">Tecnologias</h3>
                         <div class="tecnologias">
-                            <a href=""><img class="redes" src="./assets/html.png" alt=""></a>
-                            <a href=""><img class="redes" src="./assets/CSS3.png" alt=""></a>
-                            <a href=""><img class="redes" src="./assets/javascripts.png" alt=""></a>
+                            <img class="redes" src="./assets/HTML5.png" alt="">
+                            <img class="redes" src="./assets/CSS.png" alt="">
+                            <img class="redes" src="./assets/javascripts.png" alt="">
                         </div>
 
                     </div>
@@ -120,5 +125,6 @@
             </div>
        </div>
     </footer>  
+    <script src="scripts/menu.js"></script>
 </body>
 </html>
