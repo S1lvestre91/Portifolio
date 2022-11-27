@@ -1,4 +1,8 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .menu{
     padding: 1em 0 ;
     flex-direction: column;
@@ -44,8 +48,9 @@
 /* Home */
 .container-home{
     width: 75%;
-    margin-top: 6em;
-    margin-bottom: 6em;
+    height: 50%;
+    margin-top: 1em;
+    margin-bottom: 1em;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
